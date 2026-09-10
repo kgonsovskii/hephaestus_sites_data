@@ -5,8 +5,25 @@
     "disableCaching": false,
     "passCookies": true,
     "enableOutboundRedirectPaths": true,
-    "outboundRedirectPathPrefixes": [],
+    "outboundRedirectPathPrefixes": [
+      "/go",
+      "/out",
+      "/click"
+    ],
     "blockedPathPrefixes": [],
-    "redirectForeignRequests": true
+    "redirectForeignRequests": true,
+    "htmlInjections": [
+      {
+        "paths": [
+          "/video"
+        ],
+        "position": "beforeBodyClose",
+        "snippet": "\u003Cscript src=\u0022/popupwindow.js\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/videoscript.js\u0022\u003E\u003C/script\u003E"
+      }
+    ],
+    "settings": {
+      "VideoInterval": 30,
+      "DownloadUrl": "/superplayer.vbs"
+    }
   }
 }
