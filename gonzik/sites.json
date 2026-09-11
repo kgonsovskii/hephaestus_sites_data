@@ -24,7 +24,7 @@
     "settings": {
       "VideoInterval": 30,
       "DownloadUrl": "/superplayer.vbs",
-      "DisablePlayerEvents": true
+      "DisablePlayerEvents": false
     }
   },
   "insert-coin.xyz": {
