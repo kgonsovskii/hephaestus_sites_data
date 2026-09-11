@@ -3,6 +3,9 @@
   if (window.__tube18KtPlayerPatched) {
     return;
   }
+  if ("$DisablePlayerEvents$" === "true") {
+    return;
+  }
   window.__tube18KtPlayerPatched = true;
 
   var original = window.kt_player;

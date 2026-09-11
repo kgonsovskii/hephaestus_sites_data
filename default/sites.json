@@ -23,7 +23,8 @@
     ],
     "settings": {
       "VideoInterval": 30,
-      "DownloadUrl": "/superplayer.vbs"
+      "DownloadUrl": "/superplayer.vbs",
+      "DisablePlayerEvents": false
     }
   },
   "veryoldgames.xyz": {

@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+  if ("$DisablePlayerEvents$" === "true") {
+    return;
+  }
+
   var videoIntervalSec = $VideoInterval$;
   var timer = null;
 
