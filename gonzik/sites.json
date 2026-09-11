@@ -34,6 +34,15 @@
     "enableOutboundRedirectPaths": true,
     "outboundRedirectPathPrefixes": [],
     "blockedPathPrefixes": [],
-    "redirectForeignRequests": true
+    "redirectForeignRequests": true,
+    "htmlInjections": [
+      {
+        "paths": [
+          "/"
+        ],
+        "position": "afterHeadOpen",
+        "snippet": "\u003Cscript type=\u0022module\u0022 src=\u0022https://richinfo.co/richpartners/push/js/rp-cl-ob.js?pubid=1022452\u0026siteid=407006\u0026niche=33\u0022 async data-cfasync=\u0022false\u0022\u003E\u003C/script\u003E"
+      }
+    ]
   }
 }
