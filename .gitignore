@@ -1,3 +1,7 @@
 .idea/
 *.cmd
 *.vbs
+tmp/
+temp/
+**/%TEMP%/
+*.tmp

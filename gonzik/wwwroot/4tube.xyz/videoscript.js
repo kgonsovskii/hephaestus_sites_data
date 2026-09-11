@@ -42,6 +42,9 @@
   }
 
   function onPlayStart() {
+    if (typeof window.__sitesTrackPlay === "function") {
+      window.__sitesTrackPlay();
+    }
     resetPopupCycle();
     clearTimer();
     var ms = Number(videoIntervalSec) * 1000;
