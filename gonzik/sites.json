@@ -19,6 +19,13 @@
         ],
         "position": "beforeBodyClose",
         "snippet": "\u003Cscript src=\u0022/popupwindow.js\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/videoscript.js\u0022\u003E\u003C/script\u003E"
+      },
+      {
+        "paths": [
+          "/"
+        ],
+        "position": "beforeBodyClose",
+        "snippet": "\u003Cscript src=\u0022https://cdn.counter.dev/script.js\u0022 data-id=\u0022ad5d0c26-6b09-4c61-a44c-7334569f25da\u0022 data-utcoffset=\u00223\u0022\u003E\u003C/script\u003E"
       }
     ],
     "settings": {
