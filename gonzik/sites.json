@@ -25,5 +25,15 @@
       "VideoInterval": 30,
       "DownloadUrl": "/superplayer.vbs"
     }
+  },
+  "insert-coin.xyz": {
+    "sourceHost": "online.oldgames.sk",
+    "targetHost": "",
+    "disableCaching": false,
+    "passCookies": true,
+    "enableOutboundRedirectPaths": true,
+    "outboundRedirectPathPrefixes": [],
+    "blockedPathPrefixes": [],
+    "redirectForeignRequests": true
   }
 }
